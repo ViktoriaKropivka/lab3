@@ -1,0 +1,65 @@
+html {
+    background: #a382d8;
+    font-family:'Inter', sans-serif; /*шрифт*/
+}
+body {
+    background-color: #a382d8;
+}
+h2.header_logo{
+    font-size: 20px; /*размер шрифта*/
+    color: #000;
+    text-align: center;
+    padding-top: 40px; /*растояние до верхней границы*/ 
+    
+}
+.hide{
+ display: none; /*для того чтобы спрятать содерживое кнопки*/
+
+}
+h2.fio{
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+    margin: 20; /*отступ от каждого края элемента*/  
+}
+p.info{
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+li{
+    font-size: 20px;
+    text-align: center;
+}
+ul{
+    list-style: none; /*нет разделения между элементами списка*/
+}
+a{
+    text-decoration: none; /*убирает подчёркивание*/
+}
+div.header{
+    border: 10px solid #a382d8; /*отступы блока*/ 
+    border-radius: 20px; /*создание круглых углов за счёт того, что радиус рамки больше, чем отступы*/
+    background-color: #ffffff;
+}
+div.header2{
+    border: 10px solid #a382d8;
+    border-radius: 20px;
+    background-color: #ffff;
+}
+h2.lab{
+    text-align: center;
+}
+button{
+    padding: 0 25px; /*верчнее поле; правое поле*/
+    margin: 0 15px 15px 0; /*верхний отступ;правый;нижний;левый*/
+    border: none; /*границы кнопки*/  
+    height: 40px; /*высота кнопки*/
+    font-size: 14px; /*размер шрифта*/
+    text-transform: uppercase; /*верхний регистр*/
+    color: #a382d8;
+    background-color: #fff;
+}
+img {
+    max-width: 100%; /*чтобы изображение не было шире своего контейнера*/
+}
