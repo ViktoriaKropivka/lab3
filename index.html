@@ -1,0 +1,64 @@
+<!DOCTYPE html><!--то как браузеру обращатся к файлу-->
+<html>
+<head>
+  <meta charset="utf-8"><!--кодировка-->
+  <meta name="viewport" content="width=device-width"><!--отображение на экране-->
+  <link rel="stylesheet" href="style.css"><!--подключение к CSS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+  <title>Сайт портфолио</title>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h2 class="header_logo">Визитка</h2>
+<h2 class="fio">Кропивка Виктория Валентиновна</h2>
+<p class="info">
+Контактная информация
+</p>
+<ul>
+    <li><a href="https://t.me/wypsen" class="telegram">
+        @wypsen
+    </a></li>
+    <li><a href="https://github.com/ViktoriaKropivka/wypssen" class="github">
+        GitHub
+    </a></li>
+</ul>
+</div>
+</div>
+<div class="header2">
+    <h2 class="lab">Портфолио</h2>
+    <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn" id="d1">Лабораторная работа №1</button>
+          <div class="content hide" id="c1">
+            <p class="info_lab1">
+              В первой лабораторной работе мне нужно было установить Python 3.11 и PyCharm, решить с помощью этих приложений задачу и выполнить домашнее задание.
+            </p>
+            <p class="task1">
+              Задача:
+            </p>
+            <img src="лаб1задание.png" />
+            <p class="task2">
+              Домашнее задание:
+            </p>
+            <img src="лаб1дз.png" />
+          </div>
+        </div>
+    </div>      
+    <div class="navbar2">
+      <div class="dropdown2">
+          <button class="dropbtn2" id="d2">Лабораторная работа №2</button>
+          <div class="dropdown-content2 hide" id="c2">
+            <p class="info_lab2">
+              Во второй лабораторной работе мне нужно было создать простой REST сервис, выполняющий калькулятор.
+            </p>
+            <img src="лаб2дз.png"/>
+          </div>
+      </div>
+    </div>
+</div>
+<script src="main.js"></script> <!--подключение js-->
+</body>
+</html>
